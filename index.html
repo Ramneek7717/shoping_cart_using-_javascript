@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoping cart</title>
+    <!-- start  bootstrap links section -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- end bootstrap links section -->
+     <!-- start fontawesome icons section -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- end fontawesome icons section -->
+     <!-- link css file -->
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- <div class="navbar">
+  <a href="index.html">
+     <h2>Clothing store</h2>
+  </a>
+  <a href="cart.html">
+  <div class="cart">
+     <i class="fa-solid fa-cart-shopping"></i>
+     <div class="cartAmount" id="cartAmount">
+      0
+     </div>
+  </div></a> -->
+    <!-- The video -->
+<video autoplay muted loop id="myVideo">
+    <source src="images/video1.mp4" type="video/mp4">
+  </video>
+      <!-- navbar section start    -->
+<div class=" container-fluid">
+    <nav class="navbar navbar-dark bg-dark">
+        <ul></ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img src="images/logo2.png" alt="logo2" width="150px" height="100px">
+      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Clothing</a>
+          <a class="dropdown-item" href="#">Footware</a>
+          <a class="dropdown-item" href="#">Hand Bag</a>
+          <a class="dropdown-item" href="#">Jwellery</a>
+          <a class="dropdown-item" href="#">Belt</a>
+        </div>
+    </div>
+      <a class="nav-item nav-link" href="#">Blog</a>
+      <a class="nav-item nav-link" href="about.html">About</a>
+      <a class="nav-item nav-link" href="contactus.html">Contact</a>
+      <a >
+        <div class="cart">
+           <i class="fa-solid fa-cart-shopping" onclick="function2()"></i>
+           <div class="cartAmount" id="cartAmount">
+            0
+           </div>
+        </div></a>
+    </nav>
+</div> 
+  <!-- navbar section end -->
+  <!-- slider section  of clothes start -->
+  <h1>Our Trending collection</h1>
+  <div class="slider">
+
+    <div class="slide-tracker">
+        
+        <div class="slide">
+            <img src="images1/pakistani.png" alt="bag1">
+        </div>
+        <div class="slide">
+            <img src="images1/whiteshirt2.png" alt="bag2webp">
+        </div>
+        <div class="slide">
+            <img src="images1/shirt1.png" alt="bag3">
+        </div>
+        <div class="slide">
+            <img src="images1/LongTops.png" alt="bag4">
+        </div>
+        <div class="slide">
+            <img src="images1/belt1.png" alt="beltmaroon">
+        </div>
+        <div class="slide">
+            <img src="images1/belt2.png" alt="chain">
+        </div>
+        <div class="slide">
+            <img src="images1/ladiesbelt.png" alt="ladies-belt" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/chain.png" alt="LouisVuitton" class="images" >
+        </div>
+        <div class="slide">
+            <img src="images1/footware1.png" alt="footware1" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/layasa.webp" alt="Victoriagoldwebp" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/footware2.png " alt="footware2" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/footwear4.png" alt="layasa" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/bag1.png" alt="LongTops" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/bag2.png" alt="T-shirt" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/bag3.png" alt="whiteshirt" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/bag4.png" alt="pakistani" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/jeans1.png" alt="jeans4" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/jeans2.png" alt="jeans3" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/jeans3.png" alt="jeans2" class="images">
+        </div>
+        <div class="slide">
+            <img src="images1/jeans4.png" alt="jeans1" class="images">
+        </div>
+
+    </div>
+   </div>
+  <!-- slider section of clothes end  -->
+
+  <div class="shop" id="shop">
+     <!-- <div class="item">
+         <img src="images1/img1.webp" alt="img1" width="220">
+         <div class="details">
+         <h3>Casual shirt</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+         <div class="price-quantity">
+             <h2>$45</h2>
+             <div class="buttons">
+                 <i class="fa-solid fa-plus"></i>
+                 <div class="quantity">0</div>
+                 <i class="fa-solid fa-minus"></i>
+             </div>
+         </div>
+         </div>
+     </div>
+     <div class="item">
+         <img src="images1/img2.webp" alt="img1" width="220" height="300px">
+         <div class="details">
+         <h3>Office shirt</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+         <div class="price-quantity">
+             <h2>$100</h2>
+             <div class="buttons">
+                 <i class="fa-solid fa-minus"></i>
+                 <div class="quantity">0</div>
+                 <i class="fa-solid fa-plus"></i>
+                 
+             </div>
+         </div>
+     </div>
+     </div>
+     <div class="item">
+         <img src="images1/img.webp" alt="img1" width="220">
+         <div class="details">
+         <h3>Casual shirt</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+         <div class="price-quantity">
+             <h2>$45</h2>
+             <div class="buttons">
+                 <i class="fa-solid fa-plus"></i>
+                 <div class="quantity">0</div>
+                 <i class="fa-solid fa-minus"></i>
+             </div>
+         </div>
+         </div>
+     </div>
+     <div class="item">
+         <img src="images1/img1.webp" alt="img1" width="220">
+         <div class="details">
+         <h3>Casual shirt</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+         <div class="price-quantity">
+             <h2>$45</h2>
+             <div class="buttons">
+                 <i class="fa-solid fa-plus"></i>
+                 <div class="quantity">0</div>
+                 <i class="fa-solid fa-minus"></i>
+             </div>
+         </div>
+         </div>
+     </div> -->
+ </div>
+ <!-- shoping cart list section -->
+        <div id="shopping-cart1">
+        <div class="container shopping-cart1" >
+            <div class="title1">
+                <h1 class="h1">My Cart <i class="fa-solid fa-square-xmark" onclick="function1()" ></i></h1>
+                <div class="shopping-cart" id="shopping-cart"></div>
+                <div id="label" class="text-center"></div>
+            </div>
+        </div>
+        </div>
+     <!-- footer section start -->
+ <footer>
+    <div class="container-fluid footer">
+      <div class="row">
+          <!-- <div class="col-3">
+              <img src="brand.jpg" alt="brand" width="50px">
+              <h3>About Us</h3>
+              <p class="about">If you want to know about us xyz visit xyz.com <br>+910000000000 <br><companyEmail.com</p>
+              <img src="paymentcard.jpg" alt="paymentcard" width="260px">
+          </div> -->
+          <div class="col-3">
+              <h3>My Account</h3>
+                  <p>
+                      <a href="#">Sign In<a><br><a href="#">View Cart</a><br><a href="#">My Wishlist</a><br><a href="#">Track My Order</a>
+                      <br><a href="#">Help</a>
+                  </p>
+                  <h4>Secured Payment Gateways</h4> <img src="images/paymentcard.png" alt="paymentcard" width="260px">
+          </div>
+          <div class="col-3">
+              <h3>Categories</h3>
+              <p>
+                  <a href="#">Clothing<a><br><a href="#">Footware</a><br><a href="#">Hand Bag</a><br><a href="#">Jwellery</a>
+                  <br><a href="#">Belt</a>
+              </p>   
+          </div>
+          <div class="col-3">
+              <h3>About</h3>
+              <p>
+                  <a href="#">About us<a><br><a href="#">services & Supports</a><br><a href="#">Terms & Condition</a><br><a href="#">Returns & Exchange</a>
+                  <br><a href="#">Shipping & Delivery</a><br><a href="#">Privacy Policy</a><br><a href="#">contact us</a>
+              </p>   
+          </div>
+          <div class="col-3 sign-up" >
+              <h3>Sign Up For Newsletters</h3>
+              <p>Get E-email updates about our latest shop and <span>speical offers.</span></p>
+              <input type="email" name="email" id="email" placeholder="Enter Your Email" class="form-control email">
+              <br>
+              <button type="submit" class="btn btn-danger" >Subscribe</button>
+              <br><br><br>
+             
+              <div class="apps">
+                  <h2 class="Apps-title">Install App</h2>
+                  <p>From App Store or Google Play</p>
+                  <div class="images">
+                    <img src="images/appstroe-removebg-preview.png" alt="">
+                    <img src="images/googlelogo-removebg-preview.png" alt="">
+                  </div>
+                  </div>
+                
+                 
+              </div>
+          </div>
+      </div>
+      <hr>
+      <p class="copy"><span>&copy;</span>2024.All rights reserved by xyz comapny</p>
+  </div>
+</footer>  
+<!-- footer section end -->
+   </body>
+   
+   <script src="data.js"></script>
+   <script src="index.js"></script> 
+   <!-- <script src="cart.js"></script>   -->
+</html>

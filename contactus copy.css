@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Karla:ital,wght@0,200..800;1,200..800&family=Mate:ital@0;1&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Karla:ital,wght@0,200..800;1,200..800&family=Mate:ital@0;1&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Dancing+Script:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Mate:ital@0;1&family=Oleo+Script:wght@400;700&family=Pacifico&family=Rakkas&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Ojuju:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rakkas&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar section start */
+.navbar
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 503px 0px 0px;
+    font-family: "Ojuju", sans-serif;
+    width:100%;
+    z-index: 1;
+    margin: -15px;
+}
+.navbar a
+{
+    color: bisque;
+}
+.navbar button
+{
+    color: bisque;
+}
+.dropdown-menu
+{
+    color:gray;
+    background-color: black;
+}
+.navbar-toggler
+{
+    color: bisque;
+}
+.navbar-toggler-icon
+{
+    color:rgb(228, 163, 83);
+}
+.dropdown-item:active {
+    color:bisque;
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.7;
+}
+/* cart section start */
+
+.cart
+{   
+    position: relative;
+    position: 111111;
+    background-color: #fff;
+    color: #212529;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px;
+}
+.cartAmount
+{
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    padding: 3px;
+    border-radius: 3px;
+}
+/* cart section end */
+/* navbar section end */
+/* map section start */
+.map iframe
+{
+ width:100%;
+ margin-top: 106px;
+}
+/* map section end */
+/* message and address section start */
+.message-address
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.col input,textarea
+{
+    font-family: "Satisfy", cursive;
+    font-size: large;
+    color: black;
+
+   
+}
+.col label
+{
+    font-family: "Karla", sans-serif;
+    font-size: 25px;
+    margin-top: 4px;
+}
+.col sup
+{
+    color: red;
+    font-size: 22px;
+}
+.container
+{
+    margin-top: 10px;
+}
+.container h2
+{
+    font-family: "Concert One", sans-serif;
+    text-align: center; 
+}
+.container p
+{
+    font-family: "Karla", sans-serif;
+}
+.address
+{
+    position: relative;
+    left:30%;
+}
+.Get-Social
+{
+  display: inline;
+  text-align: center;
+  font-family: "Concert One", sans-serif;
+  font-weight: 100px;
+  font-size: larger;
+  
+}
+.Get-Social i
+{
+  font-size: 50px;
+  padding: 17px;
+  opacity: 0.7;
+  position: relative;
+  left:115px;
+
+}
+.Get-Social i:hover
+{
+
+  font-size: 51px;
+  opacity: 1;
+}
+/* message and address section end */
+/* footer section start */
+.footer
+{
+    background-color:antiquewhite;
+    height: 400px;
+}
+.footer h3
+{
+    font-family: "Lobster", sans-serif;
+}
+.footer a
+{
+    font-family: "Caveat", cursive;
+    font-size: 24px;
+    text-decoration: none;
+}
+footer h4,h2
+{
+    font-family: "Karla", sans-serif;
+
+}    
+.about
+{ 
+    font-family: "Karla", sans-serif;
+    font-size: 24px;
+}
+.copy
+{      font-family: "Lobster", sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+.copy span
+{
+    font-size:40px;
+}
+.sign-up p
+{
+    font-family: "Karla", sans-serif;
+}
+.footer button
+{ 
+  position: relative;
+  left:40%;
+}
+.footer>.row>.col-3>.email
+{
+    font-family: "Satisfy", cursive;
+}
+.apps
+{
+   display: flex;
+   flex-direction: column;
+  text-align: center;
+}
+.apps img
+{
+    display: inline;
+    width: 165px;
+
+}
+.Apps-title
+{
+    text-align: center;
+}
+.apps i
+{
+    font-size: 50px;
+    color: azure;   
+}
+
+i.fa-brands.fa-google-play {
+  
+    margin-right: 34px;
+
+}
+/* footer section end */

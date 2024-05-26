@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* blog heading section  start*/
+.heading{
+    position: relative;
+    display:flex ;
+    flex-direction: row;
+    top: 114px;
+    left: 366px;
+}

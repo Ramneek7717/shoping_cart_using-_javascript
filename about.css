@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Ojuju:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rakkas&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Licorice&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Licorice&family=Mate:ital@0;1&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Petrona:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&family=Rubik+Glitch+Pop&family=Rubik+Lines&family=Rubik+Maps&family=Rubik+Moonrocks&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Petrona:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&family=Ramabhadra&family=Rubik+Glitch+Pop&family=Rubik+Lines&family=Rubik+Maps&family=Rubik+Moonrocks&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+    background-color: rgb(249, 245, 245);
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Set a lower z-index so that it stays behind other content */
+}
+/* navbar section start */
+.navbar
+{
+    position: fixed;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 503px 0px 0px;
+    font-family: "Ojuju", sans-serif;
+    width:100%;
+    z-index: 1;
+    margin: -15px;
+    background-color: rgb(235, 232, 232);
+}
+.bg-dark {
+    background-color: #a93c60 !important;
+  }
+.navbar a {
+    color: #f8e5ba;
+  }
+.navbar button
+{
+    color: bisque;
+}
+
+.dropdown-menu {
+
+    background-color: #a93c60;
+  }
+.navbar-toggler
+{
+    color: bisque;
+}
+.navbar-toggler-icon
+{
+    color: #f8e5ba;
+}
+.dropdown-item:active {
+    color:bisque;
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.7;
+}
+/* navbar section end */
+/* cart section start */
+
+.cart
+{   
+    position: relative;
+    position: 111111;
+    background-color: #fff;
+    color: #212529;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px;
+}
+.cartAmount
+{
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    padding: 3px;
+    border-radius: 3px;
+}
+/* cart section end */
+/* chief section start */
+.chiefexcutiveofficer
+{   
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:-111px;
+ 
+}
+.chief-image h1
+{
+    color: rgb(151, 165, 179);
+    font-size: 83px;
+    opacity: 0.5;
+}
+.chief-image img
+{
+  margin-top: 19px;
+  margin-left: 46px;
+  /* border: 1px solid black;
+  border-radius:  50%; */
+}
+.chief-qoutes {
+    margin-top: 190px;
+    margin-left: 63px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-size: 25px;
+}
+.chief-qoutes span
+{
+    color: blue;
+}
+.chief-qoutes>span>i
+{
+    font-stretch: 100px;
+}
+.chief-qoutes>h1>i
+{
+    font-size: 83px;
+    color: black;
+    position: relative;
+    left:306px;
+}
+
+/* chief section end */
+/* Content1-image section start */
+.content1-image
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: -19px;
+}
+.content1
+{
+    margin: 40px 50px 40px 40px;
+}
+.content1 h1
+{
+    font-family: "Licorice", cursive;
+    font-size: 110px;
+}
+.content1 h3
+{
+    font-family: "Righteous", sans-serif;
+}
+.content1 p
+{
+    font-family: "Mate", serif;
+    font-size: x-large;
+}
+/* conatent1-image section end */
+ /* Purpose section start */
+ .purpose 
+ {
+    display: flex;
+    flex-direction: column;
+    margin-top: -264px;
+    margin-left: -586px;
+ }
+ .purpose .image1
+ {  position: relative;
+    width:300px;
+    left: 412px;
+ }
+ .purpose .image2
+ {
+    position: relative;
+    left:300px;
+    top:-83px;
+    width:500px;
+   height: 500px; 
+ }
+
+ /* Purpose section end */
+ /*silder section start*/
+ #playslider
+ {
+    margin-top: -209px;
+ }
+.container
+{
+    display: flex;
+    align-items: center;
+    gap:510px;
+    flex-direction: column;
+    margin-top: 244px;
+}
+.top
+{
+    display: flex;
+    align-items: center;
+    gap:50px;   
+}
+.arrow
+{    
+   font-size: 60px;
+    height: 76px;
+    cursor: pointer;
+}
+.frame {
+    width: 800px;
+    height: 550px;
+    overflow: hidden;
+    box-shadow: -1px 1px 10px rgba(0,0,0,0.5);
+}
+.frame img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+.frame p
+{
+  margin:2px 1px 0px 0px;
+ 
+  font-size: 24px;
+}
+.frame p>img {
+    margin: 5px;
+    position: relative;
+    right: 6px;
+    left: 347px;
+}
+.frame p>span{
+    position: relative;
+    top:60px;
+}
+.silder
+{
+    display: flex;
+    transition: all 1s ease;
+}
+.image
+{
+    width:800px;
+    height: 800px;
+ object-fit: cover;   
+}
+.button
+{
+    width:15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer; ;
+}
+.bottom
+{
+    display: flex;
+    gap:30px;
+    display: none;
+}
+/* silder section end */
+/* team section start */
+.team-details
+{
+    margin-left: 105px;
+    margin-top: 505px;
+}
+.team-details h1{
+    text-align: center;
+    margin-top: -420px;
+    margin-bottom: 55px;
+    font-size: 62px;
+    font-family: "Mate", serif;
+}
+.our-team
+{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin: 10px;
+   padding: 10px;
+}
+.member{
+    width:400px;
+    height:400px;
+}
+.member img
+{ 
+  position: relative;
+  left:100px;
+  width:300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.member h4{
+    position: relative;
+    left: 150px;
+    margin-top: 10px;
+}
+.member p{
+    position: relative;
+    left: 100px;
+    margin:  10px 22px 22px 22px;
+    font-size: 20px;
+}
+
+/* team section end */
+
+/* footer section start */
+.footer
+{
+    background-color: #efa5a575 !important;
+    color: #460e0ea3;
+    height: 420px;
+    margin-top: 112px;
+    margin-bottom: 0px;
+   
+}
+.footer h3
+{
+    font-family: "Lobster", sans-serif;
+   
+}
+.footer p
+{
+    color: #954e4e;
+    opacity: 0.8;
+}
+.footer a
+{
+    font-family: "Caveat", cursive;
+    font-size: 24px;
+    text-decoration: none;
+    color: #120000;
+    opacity: 0.8;
+}
+.footer a:hover{
+
+opacity: 1;
+}
+footer h4,h2
+{
+    font-family: "Karla", sans-serif;
+    color: #3b0a0ac7;
+
+}    
+.about
+{ 
+    font-family: "Karla", sans-serif;
+    font-size: 24px;
+}
+.copy
+{      font-family: "Lobster", sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: #4f2b2bcf;
+}
+.copy span
+{
+    font-size:40px;
+}
+.sign-up p
+{
+    font-family: "Karla", sans-serif;
+}
+.footer button
+{ 
+  position: relative;
+  left:40%;
+  top:-16px;
+}
+.footer>.row>.col-3>.email
+{
+    font-family: "Satisfy", cursive;
+}
+.apps
+{
+   display: flex;
+   flex-direction: column;
+  text-align: center;
+  margin-top: -42px;
+  color: #954e4e; 
+}
+.apps h2
+{
+    color: #7e5252;
+}
+.apps img
+{
+    margin-top: -15px;
+    margin-left: 95px;
+    display:flex;
+    flex-direction: column;
+    width: 165px;
+
+}
+.Apps-title
+{
+    text-align: center;
+    
+}
+.apps i
+{
+    font-size: 50px;
+    color: azure;   
+}
+
+i.fa-brands.fa-google-play {
+  
+    margin-right: 34px;
+
+}
+/* footer section end */
+@media screen and (max-width:800px) {
+    .navbar {
+        display: block ruby;
+        font-size: 26px;
+}
+.frame {
+    width: 600px;
+    height: 515px;
+}
+.frame img{
+  
+ left:195px;
+ top:5px;
+}
+.chief-image img {
+    margin-top: -15px;
+    margin-left: -47px;
+    width: 199px;
+    height: 151px;
+  }
+.chief-image h1
+{
+    position: relative;
+    font-size: 42px;
+    left:-74px;
+}
+.content1 h1 {
+   font-size: 110px;
+    position: relative;
+    top: -130px;
+  }
+  .content1 h3{
+   position: relative;
+    top: -136px;
+  }
+  .purpose {
+   margin-top: -447px;
+   }
+.content1 p {
+  position: relative;
+  top: -126px;
+
+}
+.chief-qoutes > h1 > i {
+    font-size: 45px;
+    left: 321px;
+  }
+.chief-qoutes {
+    margin-top: 81px;
+    margin-left: 18px;
+    font-size: 19px;
+  }
+.frame p > span {
+  position: relative;
+  top: 27px;
+}
+.frame p {
+  font-size: 18px;
+
+}
+
+.message-address{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+.top {
+   
+    gap: 27px;
+  }
+  .content1-image {
+   
+    margin-top: -19px;
+    width: 100%;
+   
+  }
+  .content1-image1 {
+    
+    display: none;
+  }
+.arrow {
+    font-size: 36px;
+    height: 67px;
+    cursor: pointer;
+  }
+.copy{
+    width: 100vw;
+    margin: -14px 0px 0px 0px;
+}
+.container-fluid.footer {
+    margin-bottom: -16px;
+}
+.apps img {
+    margin-top: -15px;
+    margin-left: -5px;
+}
+.apps h2 {
+    font-size: 30px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.apps{
+    position: relative;
+    top:5px;
+
+}
+.sign-up p {
+display: none;
+}
+.footer{
+    margin-top: 10px;
+    height: 400px;
+}
+.footer  a{font-size: 23px;
+}
+.btn.btn-danger {
+    text-align: center;
+    position: relative;
+    left: 16px;
+  }
+.Get-Social i {
+    left: 69px;
+}
+.footer h3 {
+    font-size: 21px;
+}
+.footer h4 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 7px;
+    position: relative;
+    left: 54px;
+}
+}
